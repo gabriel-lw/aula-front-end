@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de jogos</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Informações do jogo:</h1>
+        </header>
+            
+            <form>
+                <section title="Informações">
+                    <label for="nome" style="display: block;">
+                        Nome do jogo: <input type="text" name="nomeDoJogo " placeholder="digite o nome do jogo" id="nome">
+
+                    </label>
+                    <label for="horas" style="display: block;">
+                        Horas Jogadas: <input type="number" min="0" step="0.05" name="horasJogadas" id="horas">
+                    </label>
+
+                </section>
+
+                <section title="opnião do jogador">
+
+                    <label for="nota">
+                        <input type="radio" name="notaEscala" value="Péssimo">Péssimo
+                    </label>
+
+                    <label for="nota">
+                        <input type="radio" name="notaEscala" value="Ruim">Ruim
+                    </label>
+
+                    <label for="nota">
+                        <input type="radio" name="notaEscala" value="Medíocre">Medíocre
+                    </label>
+
+                    <label for="nota">
+                        <input type="radio" name="notaEscala" value="Bom">Bom
+                    </label>
+
+                    <label for="nota">
+                        <input type="radio" name="notaEscala" value="Muito Bom">Muito Bom
+                    </label>
+
+                    <label for="nota">
+                        <input type="radio" name="notaEscala" value="Incrivel">Incrível
+                    </label>
+
+                    <label for="review">
+                        <h2 class="review">REVIEW</h2>
+                        <textarea id="review" placeholder="Conte o que você achou do jogo..."  rows="11" cols="86"  minlength="1" maxlength="2000"></textarea>
+                    </label>
+
+                </section>
+
+                <label for="enviar">
+                    <input type="submit" name="enviar">
+                </label>
+                <label for="resetar">
+                    <input type="reset" name="resetar">
+                </label>
+
+
+            </form>
+
+        
+
+        <footer>
+        
+        </footer>
+    
+        
+    </body>
+</html>
